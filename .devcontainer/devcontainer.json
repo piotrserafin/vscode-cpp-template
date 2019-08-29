@@ -1,0 +1,19 @@
+{
+	"name": "CPP Dev Container",
+	"dockerFile": "Dockerfile",
+
+	"runArgs": [
+		"-u", "cppdev",
+	],
+
+	"settings": { 
+		"terminal.integrated.shell.linux": "/bin/bash"
+	},
+
+	// "appPort": [],
+	// "postCreateCommand": "gcc -v",
+
+	"extensions": [
+		"ms-vscode.cpptools"
+    ]
+}
